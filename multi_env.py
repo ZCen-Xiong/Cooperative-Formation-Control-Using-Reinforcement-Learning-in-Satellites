@@ -219,7 +219,6 @@ class Rel_trans:
         self.travel[0] = self.t_scn/self.T_final
         
         '''目标点的规划  self.travel[0]**(1/2.5)'''
-        # target_weight = self.travel[0]**(1/(1 + self.adj_seed * 3e-4))
         target_weight = self.travel[0]
         # 修正后的路径航点 3*(h*6)
         pred_point = raw_point * (1-target_weight) + self.target_seq

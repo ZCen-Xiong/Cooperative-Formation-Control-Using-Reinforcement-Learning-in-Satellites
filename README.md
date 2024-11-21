@@ -1,5 +1,3 @@
-Code for IAC 2024 
-
 # Cooperative Formation Control Using Reinforcement Learning in Astronomical Satellites
 
 This paper addresses the demands of astronomical observation satellites by employing **Soft Actor-Critic (SAC)** to obtain formation control policies for multi-satellites (agents) with continuous action spaces. SAC maximizes a value function that includes an entropy reward, balancing exploration and exploitation.

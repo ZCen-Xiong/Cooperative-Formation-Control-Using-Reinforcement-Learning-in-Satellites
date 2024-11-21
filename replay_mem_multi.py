@@ -14,7 +14,7 @@ class ReplayMemory:
             self.buffer.append(None) #没有充满时先用none创造出self.position
         self.buffer[self.position] = (state, action, reward, next_state, done)
         self.position = (self.position + 1) % self.capacity #超出记忆池容量后从第一个开始改写以维持容量不超标
-
+ 
     def sample(self, batch_size, seed_r = None):
         # if seed_r is None:
         #     random.seed(42)

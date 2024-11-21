@@ -10,7 +10,7 @@ def discrete_state(dT, nT):
     Ac[3, 0] = 3 * nT**2
     Ac[3, 4] = 2 * nT
     Ac[4, 3] = -2 * nT
-    Ac[5, 2] = -nT**2
+    Ac[5, 2] = -nT**2 
     
     Bc[3:6, 0:3] = np.eye(3)
     

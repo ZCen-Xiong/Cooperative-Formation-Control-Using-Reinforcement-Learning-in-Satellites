@@ -12,7 +12,7 @@ N(0,1)中取样i，与网络生成的方差+均值mu,sigma得到实际动作a=mu
 4.目前SAC实现的算法（openAI和作者本人的）都用了正态分布替代多模Q函数，如果想用多模Q函数需要用网络实现SVGD取样方法拟合多模Q函数（也是发明人在原论文中用的方法(Soft Q-Learning不是SAC））
 '''
 
-import datetime
+import datetime 
 import numpy as np
 import itertools
 import torch.nn as nn

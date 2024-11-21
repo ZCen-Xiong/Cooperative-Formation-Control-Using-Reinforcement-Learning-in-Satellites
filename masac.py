@@ -12,7 +12,7 @@ class MASAC(object):
         # numinputs 是观测空间大小
         self.gamma = args['gamma']
         self.tau = args['tau']
-        self.alpha = args['alpha']
+        self.alpha = args['alpha'] 
         self.num = num_ff
         self.policy_type = args['policy']
         self.target_update_interval = args['target_update_interval']

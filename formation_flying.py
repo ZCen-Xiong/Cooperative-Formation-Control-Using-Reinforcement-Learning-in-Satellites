@@ -1,6 +1,6 @@
 import numpy as np
 import math
-
+ 
 def RelMotion(X0,u,nT):
     # A是一个6x6的全0矩阵,B 是一个6x1矩阵，前三行为0，后三行为1
     A = np.zeros((6,6))

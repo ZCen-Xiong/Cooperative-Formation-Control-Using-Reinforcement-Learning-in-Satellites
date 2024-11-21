@@ -13,9 +13,9 @@ Additionally, focusing on multi-agent interferometric baseline stability in astr
 
 Finally, the performance of the proposed DRL methods was analyzed. Compared to traditional **MPC** methods, the average decision-making time for formation control was reduced by 95%, and fuel consumption decreased by 7%. This provides a roadmap for intelligent satellite formations in the future.
 
-![MASAC STRUCTURE](masac_structure.png)
+![MASAC STRUCTURE](masac_struct.png)
 
 
 formation flying
 
-![MASAC STRUCTURE](MASAC_test.png)
+![MASAC STRUCTURE](MASAC.png)

@@ -9,3 +9,4 @@ sofarsogood.pt
 model/
 env.py
 test.py
+*.pt

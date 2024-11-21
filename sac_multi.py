@@ -17,7 +17,7 @@ class SAC_multi(object):
         self.policy_type = args['policy']
         self.target_update_interval = args['target_update_interval']
         self.automatic_entropy_tuning = args['automatic_entropy_tuning']
-
+ 
         self.device = torch.device("cuda" if args['cuda'] else "cpu")
         # print(self.device)
         self.critic = QNetwork(num_inputs, num_ff * action_space.shape[0], args['hidden_sizes'], args['activation']).to(device=self.device)

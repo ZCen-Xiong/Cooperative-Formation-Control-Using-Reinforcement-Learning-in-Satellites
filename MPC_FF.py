@@ -12,7 +12,7 @@ mu = 398600.5e9
 sma = 7108e3
 nT = np.sqrt(mu/sma**3)
 # 动作维度
-n_obs = 6
+n_obs = 6 
 n_state = 6
 n_input = 3
 # 预测 horizon
